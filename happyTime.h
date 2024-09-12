@@ -15,7 +15,7 @@ using namespace pqxx;
 
 
 
-string BOT_TOKEN = "7284038416:AAGvBoWtd0d-jB7EfjvP6l6injwopdsDfmk";
+string BOT_TOKEN = "Insert token";
 
 struct Birthday {
     int day;
@@ -28,8 +28,7 @@ struct happyTime{
 };
 
 string connector(){
-  return "user=Yarik password=123456789 host=91.198.166.201 port=5432 dbname=birthdays";
-}
+  return "Insert postgresql database";
 
 bool equalplus(int x, int y){
   return x > y || x == y;
